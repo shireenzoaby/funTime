@@ -16,7 +16,7 @@ const options = {
   isSecure: false,
   isHttpOnly: false,
   ttl: 24 * 60 * 60 * 1000
-}
+};
 
 server.register ([inert, CookieAuth], (err) => {
   if (err) throw err;
