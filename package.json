@@ -1,0 +1,27 @@
+{
+  "name": "funtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shireenzoaby/funTime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shireenzoaby/funTime/issues"
+  },
+  "homepage": "https://github.com/shireenzoaby/funTime#readme",
+  "dependencies": {
+    "env2": "^2.1.1",
+    "hapi": "^16.0.1",
+    "hapi-auth-cookie": "^6.1.1",
+    "inert": "^4.0.3",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0"
+  }
+}
