@@ -60,10 +60,10 @@ server.register ([inert, CookieAuth], (err) => {
             if(err) console.log(err);
             reply(body);
           });
+        }
       }
     }
-  }
-},
+  },
   {
     method: 'GET',
     path: '/login',
